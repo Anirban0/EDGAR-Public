@@ -1,0 +1,8 @@
+[project]
+name = "edgar-spike"
+version = "0.0.0"
+description = "P0 throwaway spike (roadmap 0.2): de-risk edgartools item extraction + standardized financials."
+requires-python = ">=3.12"
+dependencies = [
+    "edgartools==5.42.0",
+]

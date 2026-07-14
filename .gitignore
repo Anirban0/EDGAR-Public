@@ -9,3 +9,23 @@ CLAUDE.md
 docs/
 .DS_Store
 
+# sbt / Scala
+target/
+project/target/
+project/project/
+.bsp/
+.metals/
+.bloop/
+
+# Python (uv)
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Node (web has its own .gitignore too)
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+

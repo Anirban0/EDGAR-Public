@@ -1,0 +1,5 @@
+# Routes for the edgar-api Play application
+# https://www.playframework.com/documentation/latest/ScalaRouting
+
+GET     /            controllers.HomeController.index()
+GET     /health      controllers.HomeController.health()
